@@ -1,0 +1,39 @@
+git init 
+nano README.md 
+git add README.md
+git commit -m 'initial commit' 
+nano SILab1.java
+git add SILab1.java
+git commit -m 'add Java class' 
+git push origin master 
+git checkout -b bug1 
+nano SILab1.java 
+/*popravanje na bugot*/ 
+git add SILab1.java
+git commit -m 'Fix wrong loop for reading' 
+git checkout master
+git checkout -b bug2 
+nano SILab1.java
+/*popravanje na bugot*/ 
+git add SILab1.java 
+git commit -m 'fix wrong condition in filterOddNumbers' 
+git checkout master
+git checkout -b bug3 
+nano SILab1.java
+git add SILab1.java
+git commit -m 'fixed method sumEvenNumbers' 
+git push origin master 
+git checkout master 
+git merge bug1
+git push origin master
+git merge bug2
+git push origin master 
+git checkout bug3
+git rebase master
+git checkout master
+git merge bug3
+git push origin master
+git log
+nano logs.txt 
+git add logs.txt
+

@@ -1,0 +1,37 @@
+commit 4c1f3f18172329b4a7e55e2f05e129858391ec0f (HEAD -> master, origin/master, bug3)
+Author: Luka-Radulovic <lukaradulovikj@gmail.com>
+Date:   Mon Apr 3 00:23:42 2023 +0200
+
+    fixed method sumEvenNumbers
+
+commit 29055caff50b2bfdbd017c9998162cdb4369ec67
+Merge: bbc4520 e3eff38
+Author: Luka-Radulovic <lukaradulovikj@gmail.com>
+Date:   Mon Apr 3 00:24:21 2023 +0200
+
+    Merge branch 'bug2'
+
+commit e3eff383accbfcfa5cc8cbef2c3d2fcfc4e77979 (bug2)
+Author: Luka-Radulovic <lukaradulovikj@gmail.com>
+Date:   Mon Apr 3 00:23:01 2023 +0200
+
+    fix wrong condition in filterOddNumbers
+
+commit bbc45202d5bdfcea4f78147e5621bb5f1cb75fec (bug1)
+Author: Luka-Radulovic <lukaradulovikj@gmail.com>
+Date:   Mon Apr 3 00:22:11 2023 +0200
+
+    fix wrong loop for reading
+
+commit 7c475470f3cf4a1af8cce650d536cb3190439202
+Author: Luka-Radulovic <lukaradulovikj@gmail.com>
+Date:   Mon Apr 3 00:21:11 2023 +0200
+
+    add Java class
+
+commit e64c2f7030d176f09d4978962a7b129020e744d0
+Author: Luka-Radulovic <lukaradulovikj@gmail.com>
+Date:   Mon Apr 3 00:20:15 2023 +0200
+
+    initial commit
+
